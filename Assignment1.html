@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            color: black;
+            font-family: serif;
+        }
+    </style>
+</head>
+<body>
+    <form  action="" onsubmit="goo()">
+<fieldset style="border: 1px solid black;">
+<legend>Personal Information
+</legend>
+    <label for="i1">FirstName:
+        <input id="i1" type="text" placeholder="FirstName">
+    </label>
+    
+    <label for="i2">Lastname: 
+               <input id="i2" type="text" placeholder="FirstName">
+    </label>
+    <br><br>
+    <label for="ji">Male: 
+        <input id="ji" name="i3" type="radio" placeholder="FirstName">
+</label>
+
+<label for="i3">Female: 
+    <input id="i3" name="i3" type="radio" placeholder="FirstName">
+</label>
+
+    <label for="i4">Others: 
+        <input type="radio" id="i4" name="i3" placeholder="FirstName">
+</label><br><br>
+
+<label for="i5">Date Of Birth:
+    <input type="date" id="i5"
+    placeholder="mm-dd-yyyy">
+</label>
+<br><br>
+
+<label for="i6">E-mail:
+    <input type="text" placeholder="Enter Your Email" id="i6">
+</label>
+
+<br><br>
+
+<label for="i7">Phone:
+    <input type="number" id="i7" placeholder="+91">
+</label>
+
+<br><br>
+
+<label for="i8">Height:
+    <input type="text" placeholder="Height in Feet" id="i8">
+</label>
+
+
+</fieldset>
+<fieldset style="border: 1px solid black;">
+    <legend>Education
+    </legend>
+        <label for="d1">School Name:
+            <input id="d1" type="text" placeholder="School Name">
+        </label>
+        <br><br>
+        <label for="d2">Enter Class: 
+                   <input id="d2" type="number" placeholder="Enter Class">
+        </label>
+        <br><br>
+        <label for="d3">Stream: 
+         <select id="d3" >
+             <option name="St" value="Stream" label="Stream" selected disabled>
+            </option>
+                <option  name="St" value="PCB">PCM</option>
+             <option name="St" value="Stream">PCB</option>
+          
+
+            </select>        
+       
+    <br><br>
+    
+    <label for="d8">Marksheet:
+        <input type="file" id="d8">
+ 
+    </label>
+    
+    
+    </fieldset>
+    <br>
+<input type="submit" id="submit">
+</form>
+
+<script>
+
+    const goo=()=>{
+        const d=
+alert("form submitted successfully");
+    }
+</script>
+
+</body>
+</html>
